@@ -1,0 +1,109 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = YKY
+build_property.RootNamespace = YKY
+build_property.ProjectDir = C:\Users\yusuf\OneDrive\Masaüstü\KEREM YÜKSEL MÜH\YKY\YKY\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\yusuf\OneDrive\Masaüstü\KEREM YÜKSEL MÜH\YKY\YKY
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/admin/AnaSayfaDuzen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cQW5hU2F5ZmFEdXplbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/admin/Blog-management.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cQmxvZy1tYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/admin/Musteri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cTXVzdGVyaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/admin/Personel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cUGVyc29uZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/admin/Sikayet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cU2lrYXlldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/admin/Status.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cU3RhdHVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/admin/UrunEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcYWRtaW5cVXJ1bkVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/Blog-Detay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZy1EZXRheS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/girisyap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZ2lyaXN5YXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/modo-chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbW9kby1jaGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/SifreSifirla.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lmcmVTaWZpcmxhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/UrunDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXJ1bkRldGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/Urunlerimiz.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXJ1bmxlcmltaXouY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/YeniSifre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcWWVuaVNpZnJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/yusuf/OneDrive/Masaüstü/KEREM YÜKSEL MÜH/YKY/YKY/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-hkcielfjxs

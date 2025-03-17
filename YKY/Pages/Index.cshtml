@@ -1,0 +1,223 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "YKY MODA";
+}
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<style>
+    .category {
+        background-color: #000; /* Siyah arka plan */
+        color: #fff; /* Beyaz yazı */
+        text-align: center;
+        padding: 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease-in-out;
+    }
+
+        .category a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .category:hover {
+            background-color: #333; /* Hoverda daha açık siyah/gri ton */
+            color: #ccc; /* Hoverda yazı rengini gri yap */
+        }
+
+        .category img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .category h4 {
+            margin-top: 15px;
+            font-size: 1.2rem;
+        }
+
+    .loader_bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000; /* Tam siyah arka plan */
+        opacity: 1; /* Tam opaklık */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999; /* En yüksek z-index değeri ile tüm öğelerin önünde */
+    }
+
+    body {
+        overflow: hidden; /* Sayfa kaydırma çubuğunu gizler, sayfa kaydırılamaz */
+    }
+
+    .loader {
+        z-index: 9999; /* Yükleme animasyonunun üstte görünebilmesi için */
+    }
+
+        .loader img {
+            width: 280px;
+        }
+</style>
+<div class="loader_bg">
+    <div class="loader"><img src="images/loading2.gif" alt="#" /></div>
+</div>
+
+
+
+<div class="container text-center">
+    <div class="container mt-4">
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner" style="width: 100%; height: 600px; overflow: hidden;">
+                @if (Model.Gorseller != null && Model.Gorseller.Any())
+                {
+                    var first = true;
+                    @foreach (var gorsel in Model.Gorseller)
+                    {
+                        <div class="carousel-item @(first ? "active" : "")">
+                            <img src="data:image/png;base64,@Convert.ToBase64String(gorsel)" class="d-block w-100" alt="Slider Görseli" style="object-fit: cover; height: 100%;">
+                        </div>
+                        first = false;
+                    }
+                }
+            </div>
+            <!-- Slider Kontrolleri -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <h1>YKY ⛷️</h1>
+        <div class="col-md-4 category">
+            <a href="/Urunlerimiz?SearchCinsiyet=Kadın">
+                <img src="/images/kadın.png" class="img-fluid" alt="Sweatshirt" style="width: 100%; height: 600px; object-fit: cover;">
+                <h4>KADIN</h4>
+            </a>
+        </div>
+        <div class="col-md-4 category">
+            <a href="/Urunlerimiz?SearchCinsiyet=Çocuk">
+                <img src="/images/cocuk.png" class="img-fluid" alt="Ceket" style="width: 100%; height: 600px; object-fit: cover;">
+                <h4>ÇOCUK</h4>
+            </a>
+        </div>
+        <div class="col-md-4 category">
+            <a href="/Urunlerimiz?SearchCinsiyet=Erkek">
+                <img src="/images/erkek.png" class="img-fluid" alt="Erkek Ürünleri" style="width: 100%; height: 600px; object-fit: cover;">
+                <h4>ERKEK</h4>
+            </a>
+        </div>
+
+    </div>
+   
+
+  
+    <!-- Konum Bilgisi -->
+    <div class="mt-5">
+        <h2>Konum Bilgisi</h2>
+        <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+
+
+    <div class="mt-5" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h2>Anlaşmalı Markalar</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; max-width: 100%;">
+            <div style="width: 150px; height: 100px; background-color: white; overflow: hidden; display: flex; justify-content: center; align-items: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+                <img src="/images/prada.png" alt="Marka 1" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            <div style="width: 150px; height: 100px; background-color: white; overflow: hidden; display: flex; justify-content: center; align-items: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+                <img src="/images/armani.png" alt="Marka 2" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            <div style="width: 150px; height: 100px; background-color: white; overflow: hidden; display: flex; justify-content: center; align-items: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+                <img src="/images/burberry.png" alt="Marka 3" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            <div style="width: 150px; height: 100px; background-color: white; overflow: hidden; display: flex; justify-content: center; align-items: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+                <img src="/images/cavalli.png" alt="Marka 4" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            <div style="width: 150px; height: 100px; background-color: white; overflow: hidden; display: flex; justify-content: center; align-items: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+                <img src="/images/polo.png" alt="Marka 5" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+            <div style="width: 150px; height: 100px; background-color: white; overflow: hidden; display: flex; justify-content: center; align-items: center; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+                <img src="/images/ugg.png" alt="Marka 6" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <h1>YKY ⛷️</h1>
+        <div class="col-md-4 category">
+            <a href="/Urunlerimiz?SearchKategori=Mont">
+                <img src="/images/sweatshirt.jpg" class="img-fluid" alt="Sweatshirt" style="width: 100%; height: 300px; object-fit: cover;">
+                <h4>SWEATSHIRT</h4>
+            </a>
+        </div>
+        <div class="col-md-4 category">
+            <a href="/Urunlerimiz?SearchKategori=Aksesuar">
+                <img src="/images/aksesuar.jpg" class="img-fluid" alt="Ceket" style="width: 100%; height: 300px; object-fit: cover;">
+                <h4>AKSESUAR</h4>
+            </a>
+        </div>
+        <div class="col-md-4 category">
+            <a href="/Urunlerimiz?SearchKategori=Saat">
+                <img src="/images/saat.jpg" class="img-fluid" alt="Pantolon" style="width: 100%; height: 300px; object-fit: cover;">
+                <h4>SAAT</h4>
+            </a>
+        </div>
+    </div>
+
+    <!-- Şikayet Bildirim Alanı -->
+    <div class="container mt-5" style="background-color: #f4f6f8; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); animation: fadeIn 1s ease-out;">
+        <div class="row">
+            <!-- Sağ Taraf: Uyarı Metni -->
+            <div class="col-md-6">
+                <div class="alert alert-info" role="alert" style="height: 100%; display: flex; align-items: center; justify-content: center; text-align: center; background-color: #17a2b8; color: black; padding: 20px; border-radius: 5px;">
+                    <p><strong>Şikayet Bildirimi</strong><br>Herhangi bir şikayetiniz varsa, aşağıdaki formu doldurarak bize iletebilirsiniz. En kısa süre içinde geri dönüş yapılacaktır.</p>
+                </div>
+            </div>
+            <!-- Sol Taraf: Şikayet Formu -->
+            <div class="col-md-6">
+                <h2 style="color: black;">Şikayetinizi Bildirin</h2>
+                <form method="post">
+                    <div class="mb-3">
+                        <label for="SikayetAD" class="form-label" style="color: black;">İsim Soyisim:</label>
+                        <input type="text" id="SikayetAD" name="SikayetAD" class="form-control" placeholder="İsim Soyisim" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="SikayetTelefon" class="form-label" style="color: black;">Telefon Numarası:</label>
+                        <input type="tel" id="SikayetTelefon" name="SikayetTelefon" class="form-control" placeholder="Telefon Numarası" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="SikayetBilgi" class="form-label" style="color: black;">Şikayetiniz:</label>
+                        <textarea id="SikayetBilgi" name="SikayetBilgi" class="form-control" rows="4" placeholder="Şikayetinizi buraya yazabilirsiniz..." required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="SikayetEposta" class="form-label" style="color: black;">E-posta adresiniz (isteğe bağlı):</label>
+                        <input type="email" id="SikayetEposta" name="SikayetEposta" class="form-control" placeholder="E-posta adresinizi girin">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    setTimeout(function() {
+      document.querySelector('.loader_bg').style.display = 'none';
+    }, 3000);
+</script>

@@ -1,0 +1,470 @@
+﻿@page
+@model YKY.Pages.UrunlerimizModel
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürünlerimiz</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+    <style>
+        /* Genel stil */
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #1c1c1c;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cart-icon {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            font-size: 18px;
+            background-color: transparent;
+            color: #d4af37;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+            .cart-icon:hover {
+                transform: scale(1.1);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            }
+
+            .cart-icon .item-count {
+                position: absolute;
+                top: -5px;
+                right: -5px;
+                background-color: red;
+                color: white;
+                font-size: 12px;
+                border-radius: 50%;
+                padding: 5px;
+                font-weight: bold;
+            }
+
+        /* Sepet içerik kutusu */
+        .cart-container {
+            position: fixed;
+            top: 50px;
+            right: 10px;
+            background-color: black;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            display: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            max-height: 300px;
+            overflow-y: auto;
+            width: 220px;
+            transition: transform 0.3s ease;
+        }
+
+            .cart-container h4 {
+                margin-bottom: 10px;
+            }
+
+        .cart-item {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+
+            .cart-item img {
+                width: 35px;
+                height: 35px;
+                object-fit: contain;
+                margin-right: 10px;
+            }
+
+        .cart-item-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cart-item-price {
+            color: #d4af37;
+        }
+
+        .cart-total {
+            margin-top: 15px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-align: center;
+            color: #d4af37;
+        }
+
+        /* Ürün kartları */
+        .product-img {
+            width: 100%;
+            height: 400px;
+            object-fit: contain;
+            border-radius: 15px;
+            margin-bottom: 10px;
+        }
+
+        .product-card {
+            border: 4px solid #d4af37;
+            padding: 15px;
+            margin-bottom: 15px;
+            text-align: center;
+            background-color: #2a2a2a;
+            border-radius: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .product-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+            }
+
+        .product-info h3 {
+            font-size: 1.3em;
+            color: #d4af37;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .product-info p {
+            font-size: 1em;
+            color: #b0b0b0;
+            margin-top: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #d4af37;
+            font-size: 2em;
+            padding: 30px 0;
+        }
+
+        /* Filtreleme butonu */
+        .filter-button {
+            position: fixed;
+            top: 10px;
+            right: 100px; /* Sağdan daha yakın yaparak üstte konumlandır */
+            padding: 8px 16px;
+            background-color: #b58b2d;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            z-index: 1001;
+        }
+
+            .filter-button:hover {
+                background-color: #d4af37;
+            }
+
+        /* Filtreleme paneli */
+        .filter-panel {
+            position: fixed;
+            right: 10px; /* Sağdan mesafeyi kısaltarak konumlandır */
+            top: 50px; /* Sayfanın üstünden mesafe */
+            width: 220px;
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            display: none;
+            box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+            z-index: 9999; /* Yüksek z-index */
+            max-height: 90vh; /* Yüksekliği sınırlayarak kayma olasılığını azalt */
+            overflow-y: auto; /* İçerik taşarsa kaydırma ekleyin */
+        }
+
+        /* Luxury Button Styles */
+        .luxury-button {
+            background-color: #3e3e3e; /* Dark grey */
+            color: palevioletred; /* White text */
+            border: 2px solid #3e3e3e; /* Dark grey border */
+            padding: 12px 28px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            border-radius: 30px; /* Rounded corners */
+            cursor: pointer;
+            font-weight: 500;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+            .luxury-button:hover {
+                background-color: #6c6c6c; /* Lighten on hover */
+                border-color: #6c6c6c;
+                transform: translateY(-3px); /* Slight lift effect */
+                box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+            }
+
+            .luxury-button:active {
+                transform: translateY(1px); /* Slightly push down when clicked */
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+            .luxury-button:disabled {
+                background-color: #cccccc;
+                color: #888;
+                cursor: not-allowed;
+                border-color: #cccccc;
+                box-shadow: none;
+            }
+
+        /* Sepet butonu için stil */
+        .add-to-cart {
+            position: relative;
+            padding: 12px 25px;
+            background: linear-gradient(135deg, #9b59b6, #8e44ad); /* Zarif mor tonları */
+            color: white;
+            font-size: 16px; /* Orta boy font */
+            font-weight: 600; /* Şık bir yazı stili */
+            border: none;
+            border-radius: 25px; /* Yuvarlatılmış köşeler */
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-family: 'Lora', serif; /* Zarif ve şık bir font */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+            .add-to-cart:hover {
+                transform: none;
+                background: linear-gradient(135deg, #9b59b6, #8e44ad); /* Değişiklik yok */
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Gölge sabit */
+            }
+
+            .add-to-cart:active {
+                transform: scale(0.95); /* Buton basıldığında küçülür */
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Gölge hafifler */
+                filter: brightness(1); /* Parlaklık eski haline gelir */
+            }
+
+            .add-to-cart .icon {
+                margin-right: 8px;
+                font-size: 18px; /* İkon boyutu daha büyük */
+            }
+
+            .add-to-cart span {
+                font-size: 16px; /* Metin boyutu büyütüldü */
+            }
+
+
+        .loader_bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000; /* Tam siyah arka plan */
+            opacity: 1; /* Tam opaklık */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999; /* En yüksek z-index değeri ile tüm öğelerin önünde */
+        }
+
+        body {
+            overflow: hidden; /* Sayfa kaydırma çubuğunu gizler, sayfa kaydırılamaz */
+        }
+
+        .loader {
+            z-index: 9999; /* Yükleme animasyonunun üstte görünebilmesi için */
+        }
+
+            .loader img {
+                width: 280px;
+            }
+    </style>
+
+</head>
+<body>
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading2.gif" alt="#" /></div>
+    </div>
+
+    <div class="cart-icon" onclick="toggleCartContainer()">
+        🛒
+        <div class="item-count" id="itemCount">0</div>
+    </div>
+    <div class="cart-container" id="cartContainer">
+        <h4>Sepetiniz:</h4>
+        <div id="cartItems"></div>
+        <div class="cart-total" id="cartTotal">Toplam: 0 ₺</div>
+        <button class="luxury-button" onclick="clearCart()">Sepeti Temizle</button>
+        <button class="luxury-button">Sepete devam et</button>
+    </div>
+
+
+    <div class="container">
+        <h2>Ürünlerimiz - @Model.UrunlerListesi.Count() Adet</h2>
+
+        <button class="filter-button" onclick="toggleFilterPanel()">Filtrele</button>
+
+        <div class="filter-panel" id="filterPanel">
+            <h4>Marka</h4>
+            @foreach (var marka in Model.UrunlerListesi.Select(urun => urun.UrunMarka).Distinct())
+            {
+                <label>
+                    <input type="checkbox" class="filter-checkbox" data-type="marka" value="@marka" /> @marka
+                </label>
+            }
+
+            <h4>Kategori</h4>
+            @foreach (var kategori in Model.UrunlerListesi.Select(urun => urun.UrunKategori).Distinct())
+            {
+                <label>
+                    <input type="checkbox" class="filter-checkbox" data-type="kategori" value="@kategori" /> @kategori
+                </label>
+            }
+
+            <h4>Cinsiyet</h4>
+            @foreach (var cinsiyet in Model.UrunlerListesi.Select(urun => urun.UrunCinsiyeti).Distinct())
+            {
+                <label>
+                    <input type="checkbox" class="filter-checkbox" data-type="cinsiyet" value="@cinsiyet" /> @cinsiyet
+                </label>
+            }
+        </div>
+
+        <div class="row" id="productList">
+            @foreach (var urun in Model.UrunlerListesi)
+            {
+                <div class="col-md-4 product-card" data-mark="@urun.UrunMarka" data-kategori="@urun.UrunKategori" data-cinsiyet="@urun.UrunCinsiyeti">
+                    <!-- Ürün Görseli -->
+                    <img src="data:image/jpeg;base64,@(urun.UrunAnaResim != null ? Convert.ToBase64String(urun.UrunAnaResim) : "default-image-in-base64")" alt="@urun.UrunAdı" class="product-img" />
+
+                    <div class="product-info">
+                        <h3>@urun.UrunAdı</h3>
+                        <p>@urun.UrunMarka</p>
+                        <p>@urun.UrunCinsiyeti @urun.UrunKategori</p>
+                        <p class="product-price">@urun.UrunFiyat ₺</p>
+
+                        <!-- Detaylı İnceleme Bağlantısı -->
+                        <a href="/UrunDetay?Id=@urun.UrunId" class="luxury-button">Detayları Gör</a> <!-- UrunId parametresi ile detay sayfasına yönlendirin -->
+                    </div>
+
+                    <!-- Sepete Ekle Butonu -->
+                    <button class="luxury-button" onclick="addToCart('@urun.UrunAdı', @urun.UrunFiyat, '@(urun.UrunAnaResim != null ? Convert.ToBase64String(urun.UrunAnaResim) : "default-image-in-base64")')">
+                        <span class="add-to-cart">🛒</span> Sepete Ekle
+                    </button>
+                </div>
+
+
+            }
+        </div>
+    </div>
+    <script>
+        // Sayfa yüklendiğinde sepeti yükleyelim
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        let selectedFilters = { marka: [], kategori: [], cinsiyet: [] };
+
+        // Sepet içeriğini güncelle
+        function updateCart() {
+            document.getElementById('itemCount').textContent = cart.length;
+            let cartItemsContainer = document.getElementById('cartItems');
+            cartItemsContainer.innerHTML = '';
+            let total = 0;
+
+            cart.forEach(item => {
+                total += item.price;
+                cartItemsContainer.innerHTML += `
+                    <div class="cart-item">
+                        <img src="${item.image}" alt="${item.name}" />
+                        <div class="cart-item-details">
+                            <span>${item.name}</span>
+                            <span class="cart-item-price">${item.price} ₺</span>
+                        </div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('cartTotal').textContent = `Toplam: ${total.toFixed(2)} ₺`;
+        }
+
+        // Sepete ürün ekleme
+        function addToCart(name, price, image) {
+            const product = { name, price, image };
+            cart.push(product);
+            updateCart();
+            localStorage.setItem('cart', JSON.stringify(cart));
+        }
+
+        // Sepeti temizle
+        function clearCart() {
+            cart = [];
+            updateCart();
+            localStorage.setItem('cart', JSON.stringify(cart));
+        }
+
+        // Sepet penceresini aç/kapat
+        function toggleCartContainer() {
+            const cartContainer = document.getElementById('cartContainer');
+            cartContainer.style.display = cartContainer.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // Filtreleme panelini aç/kapat
+        function toggleFilterPanel() {
+            const filterPanel = document.getElementById('filterPanel');
+            filterPanel.style.display = filterPanel.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // Filtreleme işlemi
+        document.querySelectorAll(".filter-checkbox").forEach(checkbox => {
+            checkbox.addEventListener("change", applyFilters);
+        });
+
+        function applyFilters() {
+            selectedFilters = { marka: [], kategori: [], cinsiyet: [] };
+
+            document.querySelectorAll(".filter-checkbox:checked").forEach(function(checkbox) {
+                const type = checkbox.getAttribute('data-type');
+                selectedFilters[type].push(checkbox.value);
+            });
+
+            document.querySelectorAll(".product-card").forEach(function(product) {
+                const productMarka = product.getAttribute('data-mark');
+                const productKategori = product.getAttribute('data-kategori');
+                const productCinsiyet = product.getAttribute('data-cinsiyet');
+
+                if (
+                    (selectedFilters.marka.length === 0 || selectedFilters.marka.includes(productMarka)) &&
+                    (selectedFilters.kategori.length === 0 || selectedFilters.kategori.includes(productKategori)) &&
+                    (selectedFilters.cinsiyet.length === 0 || selectedFilters.cinsiyet.includes(productCinsiyet))
+                ) {
+                    product.style.display = 'block';
+                } else {
+                    product.style.display = 'none';
+                }
+            });
+        }
+
+        // Sepet verisini sayfa yüklendiğinde hemen güncelle
+        updateCart();
+    </script>
+
+    <script>
+
+        setTimeout(function() {
+          document.querySelector('.loader_bg').style.display = 'none';
+        }, 3000);
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,489 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\YKY.bundle.scp.css",
+      "PackagePath": "staticwebassets\\YKY.pae4uo8pqc.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\assets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\fonts\\glyphicons-halflings-regulard41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regulard41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\assets\\js\\jquery-1.10.2.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.10.2.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\aksesuar.jpg",
+      "PackagePath": "staticwebassets\\image\\aksesuar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\anasayfa1.jpg",
+      "PackagePath": "staticwebassets\\image\\anasayfa1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\anasayfa2.jpg",
+      "PackagePath": "staticwebassets\\image\\anasayfa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\anasayfa3.jpg",
+      "PackagePath": "staticwebassets\\image\\anasayfa3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\armani.png",
+      "PackagePath": "staticwebassets\\image\\armani.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\burberry.png",
+      "PackagePath": "staticwebassets\\image\\burberry.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\cavalli.png",
+      "PackagePath": "staticwebassets\\image\\cavalli.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\cocuk.jpg",
+      "PackagePath": "staticwebassets\\image\\cocuk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\erkek.jpg",
+      "PackagePath": "staticwebassets\\image\\erkek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\icon.jpeg",
+      "PackagePath": "staticwebassets\\image\\icon.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\kadın.jpg",
+      "PackagePath": "staticwebassets\\image\\kadın.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\modo-chat.jpg",
+      "PackagePath": "staticwebassets\\image\\modo-chat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\parfüm.jpg",
+      "PackagePath": "staticwebassets\\image\\parfüm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\polo.png",
+      "PackagePath": "staticwebassets\\image\\polo.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\prada.png",
+      "PackagePath": "staticwebassets\\image\\prada.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\saat.jpg",
+      "PackagePath": "staticwebassets\\image\\saat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\ugg.png",
+      "PackagePath": "staticwebassets\\image\\ugg.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\image\\urun1.jpg",
+      "PackagePath": "staticwebassets\\image\\urun1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\aksesuar.jpg",
+      "PackagePath": "staticwebassets\\images\\aksesuar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\anasayfa1.jpg",
+      "PackagePath": "staticwebassets\\images\\anasayfa1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\anasayfa2.jpg",
+      "PackagePath": "staticwebassets\\images\\anasayfa2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\anasayfa3.jpg",
+      "PackagePath": "staticwebassets\\images\\anasayfa3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\armani.png",
+      "PackagePath": "staticwebassets\\images\\armani.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\burberry.png",
+      "PackagePath": "staticwebassets\\images\\burberry.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\cavalli.png",
+      "PackagePath": "staticwebassets\\images\\cavalli.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\cocuk.png",
+      "PackagePath": "staticwebassets\\images\\cocuk.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\erkek.png",
+      "PackagePath": "staticwebassets\\images\\erkek.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\icon.jpeg",
+      "PackagePath": "staticwebassets\\images\\icon.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\kadın.png",
+      "PackagePath": "staticwebassets\\images\\kadın.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\loading2.gif",
+      "PackagePath": "staticwebassets\\images\\loading2.gif"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\modo-chat.jpg",
+      "PackagePath": "staticwebassets\\images\\modo-chat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\parfüm.jpg",
+      "PackagePath": "staticwebassets\\images\\parfüm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\polo.png",
+      "PackagePath": "staticwebassets\\images\\polo.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\prada.png",
+      "PackagePath": "staticwebassets\\images\\prada.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\saat.jpg",
+      "PackagePath": "staticwebassets\\images\\saat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\ugg.png",
+      "PackagePath": "staticwebassets\\images\\ugg.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\urun1.jpg",
+      "PackagePath": "staticwebassets\\images\\urun1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\images\\yky -fashıon.png",
+      "PackagePath": "staticwebassets\\images\\yky -fashıon.png"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\KEREM YÜKSEL MÜH\\YKY\\YKY\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.YKY.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.YKY.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.YKY.props",
+      "PackagePath": "build\\YKY.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.YKY.props",
+      "PackagePath": "buildMultiTargeting\\YKY.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.YKY.props",
+      "PackagePath": "buildTransitive\\YKY.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

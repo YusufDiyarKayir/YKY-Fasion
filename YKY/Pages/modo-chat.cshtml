@@ -1,0 +1,100 @@
+﻿@page
+@model YKY.Pages.modo_chatModel
+@{
+    ViewData["Title"] = "Yapay Zeka Kıyafet Önerisi";
+}
+
+<h2>Yapay Zeka Destekli Kıyafet Öneri Chatbot</h2>
+
+<div id="chat-container">
+    <div id="chat-box">
+        @foreach (var message in Model.ChatHistory)
+        {
+            <div class="chat-message @(message.IsUser ? "user-message" : "bot-message")">
+                @message.Text
+            </div>
+        }
+    </div>
+    <form method="post" id="chat-form">
+        <input type="text" asp-for="UserInput" id="user-input" placeholder="Mesajınızı yazın..." autocomplete="off" />
+        <button type="submit">Gönder</button>
+    </form>
+</div>
+
+<style>
+    #chat-container {
+        width: 50%;
+        margin: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        background: #f9f9f9;
+    }
+
+    #chat-box {
+        height: 300px;
+        overflow-y: auto;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .chat-message {
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 75%;
+        word-wrap: break-word;
+        font-size: 14px;
+    }
+
+    .user-message {
+        background-color: #007bff;
+        color: white;
+        text-align: right;
+        align-self: flex-end;
+    }
+
+    .bot-message {
+        background-color: black;
+        color: white;
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    form {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    input {
+        flex: 1;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 8px 15px;
+        border-radius: 5px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var chatBox = document.getElementById("chat-box");
+        chatBox.scrollTop = chatBox.scrollHeight;  // En son mesaja otomatik kaydır
+
+        document.getElementById("chat-form").addEventListener("submit", function () {
+            setTimeout(function () {
+                chatBox.scrollTop = chatBox.scrollHeight;  // Yeni mesaj geldiğinde otomatik kaydır
+            }, 100);
+        });
+    });
+</script>

@@ -1,0 +1,187 @@
+﻿@page
+@model YKY.Pages.admin.Blog_managementModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Yönetimi - Admin Panel</title>
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/font-awesome.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/custom.css" rel="stylesheet" asp-append-version="true" />
+    <style>
+        .content-wrapper {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        .table th, .table td {
+            vertical-align: middle !important;
+        }
+
+        .btn-sm {
+            margin: 2px;
+        }
+
+        .table thead {
+            background-color: #343a40;
+            color: white;
+        }
+
+        .table-hover tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <!-- Navbar -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="adjust-nav">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="~/favicon.ico" alt="Favicon" width="60" height="60" />
+                    </a>
+                </div>
+                <span class="logout-spn">
+                    <a href="/index" style="color:#fff;">LOGOUT</a>
+                </span>
+            </div>
+        </div>
+
+        <!-- Sol Navbar -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li class="active-link">
+                        <a href="/admin/index"><i class="fa fa-desktop"></i>Dashboard <span class="badge"></span></a>
+                    </li>
+                    <li>
+                        <a href="/admin/UrunEkle"><i class="fa fa-table "></i>ÜRÜN EKLE<span class="badge"></span></a>
+                    </li>
+                    <li>
+                        <a href="Personel"><i class="fa fa-edit "></i>Personel Yönetimi  <span class="badge"></span></a>
+                    </li>
+                    <li>
+                        <a href="/admin/Sikayet"><i class="fa fa-exclamation-circle"></i> Şikayetler <span class="badge"></span></a>
+                    </li>
+                    <li><a href="Blog-management"><i class="fa fa-edit"></i> Blog Verileri</a></li>
+                    <li>
+                        <a href="Status"><i class="fa fa-edit"></i> Statü ekle</a>
+                    </li>
+                    <li>
+                        <a href="Musteri"><i class="fa fa-edit"></i> Müşteri İşlemleri</a>
+                    </li>
+                    <li>
+                        <a href="AnaSayfaDuzen"><i class="fa fa-edit"></i> Ana Sayfa Düzeni</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+       
+
+        <!-- Blog Ekle Modal -->
+        <div id="blogEkleModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Yeni Blog Ekle</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" asp-page-handler="Ekle" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label>Başlık</label>
+                                <input type="text" class="form-control" name="BlogBaslik" required />
+                            </div>
+                            <div class="form-group">
+                                <label>İçerik</label>
+                                <textarea class="form-control" name="Blogİcerik" rows="4" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label>Tarih</label>
+                                <input type="date" class="form-control" name="BlogTarih" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Konu</label>
+                                <input type="text" class="form-control" name="BlogKonu" required />
+                            </div>
+                            <div class="form-group">
+                                <label>Görsel</label>
+                                <input type="file" class="form-control" name="BlogGorsel" accept="image/*" />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Kaydet</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Blog Yönetimi İçeriği -->
+        <div class="content-wrapper">
+            <h2>Blog Yönetimi</h2>
+            <!-- Blog Ekle Butonu -->
+            <div style="text-align: right; margin-bottom: 10px;">
+                <button class="btn btn-success" data-toggle="modal" data-target="#blogEkleModal">
+                    <i class="fa fa-plus"></i> Blog Ekle
+                </button>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Başlık</th>
+                            <th>İçerik</th>
+                            <th>Tarih</th>
+                            <th>Konu</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var blog in Model.Bloglar)
+                        {
+                            <tr>
+                                <td>@blog.BlogBaslik</td>
+                                <td>@(blog.Blogİcerik.Length > 50 ? blog.Blogİcerik.Substring(0, 50) + "..." : blog.Blogİcerik)</td>
+                                <td>@blog.BlogTarih.ToString("yyyy-MM-dd")</td>
+                                <td>@blog.BlogKonu</td>
+                                <td>
+                                    <a href="/admin/EditBlog?id=@blog.Id" class="btn btn-primary btn-sm"><i class="fa fa-pencil"></i> Düzenle</a>
+                                    <form method="post" asp-page-handler="Delete" asp-route-id="@blog.Id" onsubmit="return confirm('Silmek istediğinizden emin misiniz?');" style="display:inline;">
+                                        <button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Sil</button>
+                                    </form>
+
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/assets/js/jquery-1.10.2.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#blogEkleModal").on("hidden.bs.modal", function () {
+                $(this).find("form")[0].reset();
+            });
+        });
+    </script>
+
+</body>
+</html>

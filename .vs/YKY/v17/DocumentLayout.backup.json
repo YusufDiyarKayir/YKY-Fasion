@@ -1,0 +1,548 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\urunlerimiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\urunlerimiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\urundetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\urundetay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\sifresifirla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\sifresifirla.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\modo-chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\modo-chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\girisyap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\girisyap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\blog-detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\blog-detay.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\yenisifre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\yenisifre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\admin\\musteri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\admin\\musteri.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\admin\\sikayet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\admin\\sikayet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\admin\\blog-management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\admin\\blog-management.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\admin\\blog-management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\admin\\blog-management.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\blog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\blog.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YUSUF_ONEDRIVE_BELGELER_YKY_FASHION.MDF/True/SqlTable/dbo.Blog.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\girisyap.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\girisyap.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YUSUF_ONEDRIVE_BELGELER_YKY_FASHION.MDF/True/SqlTable/dbo.Musteri.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\sifresifirla.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\sifresifirla.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\admin\\personel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\admin\\personel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\urunlerimiz.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\urunlerimiz.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\modo-chat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\modo-chat.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YUSUF_ONEDRIVE_BELGELER_YKY_FASHION.MDF/True/SqlTable/dbo.Sikayet.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|c:\\users\\yusuf\\onedrive\\masa\u00FCst\u00FC\\kerem y\u00FCksel m\u00FCh\\yky\\yky\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B53BBD15-F214-41FF-A590-65B655FB7E7D}|YKY\\YKY.csproj|solutionrelative:yky\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Blank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:YKY\\Pages\\admin\\Blank.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\UrunEkle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:YKY\\Pages\\UrunEkle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "girisyap.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\girisyap.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\girisyap.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\girisyap.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\girisyap.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-09T15:02:09.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "modo-chat.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\modo-chat.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\modo-chat.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\modo-chat.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\modo-chat.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T21:21:05.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SifreSifirla.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\SifreSifirla.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\SifreSifirla.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\SifreSifirla.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\SifreSifirla.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T08:33:02.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UrunDetay.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\UrunDetay.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\UrunDetay.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\UrunDetay.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\UrunDetay.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T14:42:53.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Index.cshtml*",
+              "RelativeToolTip": "YKY\\Pages\\Index.cshtml*",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T15:42:33.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Urunlerimiz.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Urunlerimiz.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Urunlerimiz.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Urunlerimiz.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\Urunlerimiz.cshtml",
+              "ViewState": "AgIAAAABAAAAAAAAAADwvyQBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T20:06:40.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Blog.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Blog.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Blog.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Blog.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\Blog.cshtml",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAANkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T22:28:16.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Blog-Detay.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Blog-Detay.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Blog-Detay.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Blog-Detay.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\Blog-Detay.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T22:28:37.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Error.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T16:30:13.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "YeniSifre.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\YeniSifre.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\YeniSifre.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\YeniSifre.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\YeniSifre.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T08:32:58.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Index.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\admin\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAEQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T09:39:35.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Blog-management.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Blog-management.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\admin\\Blog-management.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Blog-management.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\admin\\Blog-management.cshtml",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAALUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T18:40:47.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Musteri.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Musteri.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\admin\\Musteri.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Musteri.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\admin\\Musteri.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T13:00:28.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Sikayet.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Sikayet.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\admin\\Sikayet.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Sikayet.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\admin\\Sikayet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T18:41:05.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Blog.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Blog.cshtml.cs",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Blog.cshtml.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Blog.cshtml.cs",
+              "RelativeToolTip": "YKY\\Pages\\Blog.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T18:10:49.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Blog-management.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Blog-management.cshtml.cs",
+              "RelativeDocumentMoniker": "YKY\\Pages\\admin\\Blog-management.cshtml.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Blog-management.cshtml.cs",
+              "RelativeToolTip": "YKY\\Pages\\admin\\Blog-management.cshtml.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAowFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T21:42:40.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dbo.Blog.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YUSUF_ONEDRIVE_BELGELER_YKY_FASHION.MDF/True/SqlTable/dbo.Blog.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YUSUF_ONEDRIVE_BELGELER_YKY_FASHION.MDF/True/SqlTable/dbo.Blog.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-15T21:42:23.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGQEAAAAAAAAAAAAAHsEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T15:44:10.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Program.cs",
+              "RelativeDocumentMoniker": "YKY\\Program.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Program.cs",
+              "RelativeToolTip": "YKY\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:59:43.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "girisyap.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\girisyap.cshtml.cs",
+              "RelativeDocumentMoniker": "YKY\\Pages\\girisyap.cshtml.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\girisyap.cshtml.cs",
+              "RelativeToolTip": "YKY\\Pages\\girisyap.cshtml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwDEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:02:17.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dbo.Musteri.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YUSUF_ONEDRIVE_BELGELER_YKY_FASHION.MDF/True/SqlTable/dbo.Musteri.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YUSUF_ONEDRIVE_BELGELER_YKY_FASHION.MDF/True/SqlTable/dbo.Musteri.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-15T14:30:02.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SifreSifirla.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\SifreSifirla.cshtml.cs",
+              "RelativeDocumentMoniker": "YKY\\Pages\\SifreSifirla.cshtml.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\SifreSifirla.cshtml.cs",
+              "RelativeToolTip": "YKY\\Pages\\SifreSifirla.cshtml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:33:05.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Personel.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Personel.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\admin\\Personel.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Personel.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\admin\\Personel.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwDQAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T17:26:15.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UrunEkle.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\UrunEkle.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\UrunEkle.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\UrunEkle.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\UrunEkle.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwDQAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T17:14:50.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Urunlerimiz.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Urunlerimiz.cshtml.cs",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Urunlerimiz.cshtml.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Urunlerimiz.cshtml.cs",
+              "RelativeToolTip": "YKY\\Pages\\Urunlerimiz.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:45:20.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Blank.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Blank.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\admin\\Blank.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\admin\\Blank.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\admin\\Blank.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-07T09:39:57.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "YKY\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "YKY\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAJMDAAAAAAAAAIBJwIwEAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-15T15:42:14.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "dbo.Sikayet.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YUSUF_ONEDRIVE_BELGELER_YKY_FASHION.MDF/True/SqlTable/dbo.Sikayet.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_YUSUF_ONEDRIVE_BELGELER_YKY_FASHION.MDF/True/SqlTable/dbo.Sikayet.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-02-18T21:15:18.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "modo-chat.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\modo-chat.cshtml.cs",
+              "RelativeDocumentMoniker": "YKY\\Pages\\modo-chat.cshtml.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\modo-chat.cshtml.cs",
+              "RelativeToolTip": "YKY\\Pages\\modo-chat.cshtml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwD4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T19:45:12.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-15T16:21:06.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "YKY\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Properties\\launchSettings.json",
+              "RelativeToolTip": "YKY\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-18T20:59:57.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "YKY\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "YKY\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T18:57:24.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "YKY\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\yusuf\\OneDrive\\Masa\u00FCst\u00FC\\KEREM Y\u00DCKSEL M\u00DCH\\YKY\\YKY\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "YKY\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T16:30:09.258Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

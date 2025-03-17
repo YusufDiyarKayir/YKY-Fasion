@@ -1,0 +1,200 @@
+﻿@page
+@model YKY.Pages.admin.MusteriModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Müşteri Yönetimi - Admin Panel</title>
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/font-awesome.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/custom.css" rel="stylesheet" asp-append-version="true" />
+</head>
+<body>
+    <div id="wrapper">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="adjust-nav">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="~/favicon.ico" alt="Favicon" width="60" height="60" />
+                    </a>
+                </div>
+                <span class="logout-spn">
+                    <a href="/index" style="color:#fff;">LOGOUT</a>
+                </span>
+            </div>
+        </div>
+
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li class="active-link">
+                        <a href="/admin/index"><i class="fa fa-desktop"></i>Dashboard <span class="badge"></span></a>
+                    </li>
+                    <li>
+                        <a href="/admin/UrunEkle"><i class="fa fa-table "></i>ÜRÜN EKLE<span class="badge"></span></a>
+                    </li>
+                    <li>
+                        <a href="Personel"><i class="fa fa-edit "></i>Personel Yönetimi  <span class="badge"></span></a>
+                    </li>
+                    <li>
+                        <a href="/admin/Sikayet"><i class="fa fa-exclamation-circle"></i> Şikayetler <span class="badge"></span></a>
+                    </li>
+                    <li><a href="Blog-management"><i class="fa fa-edit"></i> Blog Verileri</a></li>
+                    <li>
+                        <a href="Status"><i class="fa fa-edit"></i> Statü ekle</a>
+                    </li>
+                    <li>
+                        <a href="Musteri"><i class="fa fa-edit"></i> Müşteri İşlemleri</a>
+                    </li>
+                    <li>
+                        <a href="AnaSayfaDuzen"><i class="fa fa-edit"></i> Ana Sayfa Düzeni</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container" style="margin-top: 60px; margin-left: 250px;">
+            <h2>Müşteri Yönetimi</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Ad</th>
+                        <th>Soyad</th>
+                        <th>Cinsiyet</th>
+                        <th>Yaş</th>
+                        <th>E-Posta</th>
+                        <th>Telefon</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var musteri in Model.Musteriler)
+                    {
+                        <tr>
+                            <td>@musteri.Id</td>
+                            <td>@musteri.MusteriAD</td>
+                            <td>@musteri.MusteriSOYAD</td>
+                            <td>@musteri.MusteriCinsiyet</td>
+                            <td>@musteri.MusteriYas</td>
+                            <td>@musteri.MusteriMAIL</td>
+                            <td>@musteri.MusteriTelefon</td>
+                            <td>
+                                <button class="btn btn-primary" onclick="openEditModal(@musteri.Id, '@musteri.MusteriAD', '@musteri.MusteriSOYAD', '@musteri.MusteriCinsiyet', '@musteri.MusteriYas', '@musteri.MusteriMAIL', '@musteri.MusteriTelefon')">Düzenle</button>
+                                <button class="btn btn-danger" onclick="deleteMusteri(@musteri.Id)">Sil</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Müşteri Düzenle</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <form method="post" asp-page-handler="Guncelle">
+                    <input type="hidden" id="editId" name="Id" />
+
+                    <div class="form-group">
+                        <label for="editAd">Ad:</label>
+                        <input type="text" id="editAd" name="MusteriAD" class="form-control" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editSoyad">Soyad:</label>
+                        <input type="text" id="editSoyad" name="MusteriSOYAD" class="form-control" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editCinsiyet">Cinsiyet:</label>
+                        <input type="text" id="editCinsiyet" name="MusteriCinsiyet" class="form-control" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editYas">Yaş:</label>
+                        <input type="number" id="editYas" name="MusteriYas" class="form-control" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editMail">E-Posta:</label>
+                        <input type="email" id="editMail" name="MusteriMAIL" class="form-control" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="editTelefon">Telefon:</label>
+                        <input type="tel" id="editTelefon" name="MusteriTelefon" class="form-control" required />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Kaydet</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/assets/js/jquery-1.10.2.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script>
+        function deleteMusteri(id) {
+            if (confirm('Bu müşteriyi silmek istediğinize emin misiniz?')) {
+                $.post('/admin/MusteriSil', { id: id }, function () {
+                    location.reload();
+                });
+            }
+        }
+
+        function openEditModal(id, ad, soyad, cinsiyet, yas, mail, telefon) {
+            $('#editId').val(id);
+            $('#editAd').val(ad);
+            $('#editSoyad').val(soyad);
+            $('#editCinsiyet').val(cinsiyet);
+            $('#editYas').val(yas);
+            $('#editMail').val(mail);
+            $('#editTelefon').val(telefon);
+            $('#editModal').modal('show');
+        }
+
+                function saveMusteri() {
+            var data = {
+                Id: $('#editId').val(),
+                MusteriAD: $('#editAd').val(),
+                MusteriSOYAD: $('#editSoyad').val(),
+                MusteriCinsiyet: $('#editCinsiyet').val(),
+                MusteriYas: $('#editYas').val(),
+                MusteriMAIL: $('#editMail').val(),
+                MusteriTelefon: $('#editTelefon').val()
+            };
+
+            $.ajax({
+                url: '/admin/Musteri?handler=Guncelle',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify(data),
+                success: function () {
+                    location.reload();
+                },
+                error: function () {
+                    alert('Müşteri güncelleme işlemi başarısız oldu!');
+                }
+            });
+        }
+
+    </script>
+</body>
+</html>

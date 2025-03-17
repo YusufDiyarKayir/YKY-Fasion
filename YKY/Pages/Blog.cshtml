@@ -1,0 +1,223 @@
+﻿@page
+@model YKY.Pages.BlogModel
+@{
+    ViewData["Title"] = "YKY Blog";
+}
+
+<div class="loader_bg">
+    <div class="loader"><img src="images/loading2.gif" alt="#" /></div>
+</div>
+
+<div class="container">
+    <h2>YKY Gündem</h2>
+
+    @if (Model.Blogs.Count > 0)
+    {
+        var latestBlog = Model.Blogs.OrderByDescending(b => b.Id).FirstOrDefault();
+
+        <!-- Yeni Blog (En Güncel Haber) -->
+        <div class="latest-blog">
+            <div class="blog-container large">
+                <div class="blog-image large">
+                    @if (latestBlog.BlogGorsel != null && latestBlog.BlogGorsel.Length > 0)
+                    {
+                        <img src="data:image/jpeg;base64,@Model.GetImageAsBase64(latestBlog.BlogGorsel)" alt="Blog Görseli" />
+                    }
+                    else
+                    {
+                        <img src="default-image.jpg" alt="No Image Available" />
+                    }
+                </div>
+                <div class="blog-content large">
+                    <h3>@latestBlog.BlogBaslik</h3>
+                    <p><strong>@latestBlog.PersonelAd</strong> - @latestBlog.BlogTarih.ToString("dd/MM/yyyy") (<i>@latestBlog.BlogKonu</i>)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Eski Bloglar -->
+        <div class="older-blogs">
+            @foreach (var blog in Model.Blogs.OrderByDescending(b => b.Id).Skip(1))
+            {
+                <div class="blog-container small">
+                    <div class="blog-content small">
+                        <h3>@blog.BlogBaslik</h3>
+                        <p><strong>@blog.PersonelAd</strong> - @blog.BlogTarih.ToString("dd/MM/yyyy") (<i>@blog.BlogKonu</i>)</p>
+                    </div>
+                    <div class="blog-image small">
+                        @if (blog.BlogGorsel != null && blog.BlogGorsel.Length > 0)
+                        {
+                            <img src="data:image/jpeg;base64,@Model.GetImageAsBase64(blog.BlogGorsel)" alt="Blog Görseli" />
+                        }
+                        else
+                        {
+                            <img src="default-image.jpg" alt="No Image Available" />
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <p>Henüz blog yazısı bulunmamaktadır.</p>
+    }
+</div>
+
+
+<style>
+    /* Genel Stiller */
+    body {
+        font-family: "Poppins", sans-serif;
+        color: #f0f0f0;
+        background-color: #121212;
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3.5rem;
+        font-weight: 600;
+        color: #e74c3c;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-top: 40px;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Ana İçerik ve Konteyner */
+    .container {
+        width: 85%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+    .latest-blog .blog-container.large {
+        display: block;
+        margin-bottom: 60px;
+        margin-top: 40px;
+        z-index: 1;
+        background-color: #1c1c1c; /* Kontrast için */
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+    }
+
+    .latest-blog .blog-image.large {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 12px;
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+    }
+
+        .latest-blog .blog-image.large img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .latest-blog .blog-image.large:hover {
+            transform: scale(1.05); /* Daha etkili büyütme */
+        }
+
+    .latest-blog .blog-content.large {
+        padding: 20px;
+    }
+
+        .latest-blog .blog-content.large h3 {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .latest-blog .blog-content.large p {
+            font-size: 1.2rem;
+            color: #ddd;
+            line-height: 1.6;
+        }
+
+    /* Eski Bloglar */
+    .older-blogs {
+        margin-top: 40px;
+    }
+
+    .blog-container.small {
+        display: block;
+        margin-bottom: 20px;
+        background-color: #1a1a1a;
+        border-radius: 8px;
+        padding: 15px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    }
+
+        .blog-container.small:hover {
+            background-color: #333;
+            transform: translateY(-5px); /* Hafif yukarı kayma */
+        }
+
+    .blog-content.small {
+        margin-bottom: 10px;
+    }
+
+    .blog-image.small {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .blog-content.small h3 {
+        font-size: 1.6rem;
+        color: #e74c3c;
+        margin-bottom: 8px;
+    }
+
+    .blog-content.small p {
+        font-size: 1rem;
+        color: #ddd;
+        line-height: 1.5;
+    }
+
+    .blog-image.small img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .loader_bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000; /* Tam siyah arka plan */
+        opacity: 1; /* Tam opaklık */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999; /* En yüksek z-index değeri ile tüm öğelerin önünde */
+    }
+
+    body {
+        overflow: hidden; /* Sayfa kaydırma çubuğunu gizler, sayfa kaydırılamaz */
+    }
+
+    .loader {
+        z-index: 9999; /* Yükleme animasyonunun üstte görünebilmesi için */
+    }
+
+        .loader img {
+            width: 280px;
+        }
+</style>
+<script>
+
+    setTimeout(function() {
+      document.querySelector('.loader_bg').style.display = 'none';
+    }, 3000);
+</script>

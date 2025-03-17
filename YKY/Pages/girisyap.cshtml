@@ -1,0 +1,198 @@
+﻿@page
+@model YKY.Pages.girisyapModel
+@{
+    ViewData["Title"] = "Giriş & Kayıt Formu";
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <input type="checkbox" id="check">
+
+        <!-- Giriş Yap Formu -->
+        <div class="login form">
+            <header>Giriş Yap</header>
+            <form method="post">
+                <input type="email" name="Email" placeholder="E-posta adresinizi girin" required />
+                <input type="password" name="Password" placeholder="Şifrenizi girin" required />
+                <a href="/SifreSifirla">Şifremi Unuttum</a>
+
+                <input type="submit" class="button" value="Giriş Yap" />
+            </form>
+            @if (Model.ErrorMessage != null)
+            {
+                <div style="color:red;">
+                    <strong>@Model.ErrorMessage</strong>
+                </div>
+            }
+            <div class="signup">
+                <span class="signup">
+                    Hesabınız yok mu?
+                    <label for="check">Kayıt Ol</label>
+                </span>
+            </div>
+        </div>
+
+        <!-- Kayıt Ol Formu -->
+        <div class="registration form">
+            <header>Kayıt Ol</header>
+            <form method="post">
+                <input type="text" name="Ad" placeholder="Adınız" required />
+                <input type="text" name="Soyad" placeholder="Soyadınız" required />
+                <select name="Cinsiyet" required>
+                    <option value="">Cinsiyet Seçiniz</option>
+                    <option value="Erkek">Erkek</option>
+                    <option value="Kadın">Kadın</option>
+                </select>
+                <input type="number" name="Yas" placeholder="Yaşınızı girin" required />
+                <select name="KonumID" required>
+                    <option value="">Konum Seçiniz</option>
+                    @foreach (var konum in Model.Konumlar)
+                    {
+                        <option value="@konum.KonumID">@konum.KonumAdi</option>
+                    }
+                </select>
+                <input type="email" name="Email" placeholder="E-posta adresinizi girin" required />
+                <input type="text" name="Telefon" placeholder="Telefon Numaranız" required />
+                <input type="password" name="Password" placeholder="Şifre oluşturun" required />
+                <input type="password" name="ConfirmPassword" placeholder="Şifrenizi tekrar girin" required />
+                <input type="submit" class="button" value="Kayıt Ol" />
+            </form>
+            @if (Model.SignupErrorMessage != null)
+            {
+                <div style="color:red;">
+                    <strong>@Model.SignupErrorMessage</strong>
+                </div>
+            }
+            <div class="signup">
+                <span class="signup">
+                    Zaten bir hesabınız var mı?
+                    <label for="check">Giriş Yap</label>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<style>
+   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        background:black
+        ;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 430px;
+        width: 100%;
+        background: #fff;
+        border-radius: 7px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    }
+
+        .container .registration {
+            display: none;
+        }
+
+    #check:checked ~ .registration {
+        display: block;
+    }
+
+    #check:checked ~ .login {
+        display: none;
+    }
+
+    #check {
+        display: none;
+    }
+
+    .container .form {
+        padding: 2rem;
+    }
+
+    .form header {
+        font-size: 2rem;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .form input {
+        height: 40px;
+        width: 100%;
+        padding: 0 15px;
+        font-size: 17px;
+        margin-bottom: 1.3rem;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        outline: none;
+    }
+
+        .form input:focus {
+            box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+        }
+
+    .form a {
+        font-size: 16px;
+        color: #009579;
+        text-decoration: none;
+    }
+
+        .form a:hover {
+            text-decoration: underline;
+        }
+
+    .form input.button {
+        color: #fff;
+        background: #009579;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        margin-top: 1.7rem;
+        cursor: pointer;
+        transition: 0.4s;
+    }
+
+        .form input.button:hover {
+            background: #006653;
+        }
+
+    .signup {
+        font-size: 17px;
+        text-align: center;
+    }
+
+        .signup label {
+            color: #009579;
+            cursor: pointer;
+        }
+
+            .signup label:hover {
+                text-decoration: underline;
+            }
+
+  
+</style>

@@ -1,0 +1,112 @@
+﻿@page
+@model YKY.Pages.admin.AnaSayfaDuzenModel
+@{
+    Layout = null;
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin Panel</title>
+
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/font-awesome.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/assets/css/custom.css" rel="stylesheet" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="adjust-nav">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="~/favicon.ico" alt="Favicon" width="60" height="60" />
+                    </a>
+                </div>
+                <span class="logout-spn">
+                    <a href="/index" style="color:#fff; font-size: 12px; font-family: Arial, sans-serif;">LOGOUT</a>
+                </span>
+            </div>
+        </div>
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li class="active-link">
+                        <a href="/admin/index"><i class="fa fa-desktop"></i>Dashboard <span class="badge"></span></a>
+                    </li>
+                    <li>
+                        <a href="/admin/UrunEkle"><i class="fa fa-table "></i>ÜRÜN EKLE<span class="badge"></span></a>
+                    </li>
+                    <li>
+                        <a href="Personel"><i class="fa fa-edit "></i>Personel Yönetimi  <span class="badge"></span></a>
+                    </li>
+                    <li>
+                        <a href="/admin/Sikayet"><i class="fa fa-exclamation-circle"></i> Şikayetler <span class="badge"></span></a>
+                    </li>
+                    <li><a href="Blog-management"><i class="fa fa-edit"></i> Blog Verileri</a></li>
+                    <li>
+                        <a href="Status"><i class="fa fa-edit"></i> Statü ekle</a>
+                    </li>
+                    <li>
+                        <a href="Musteri"><i class="fa fa-edit"></i> Müşteri İşlemleri</a>
+                    </li>
+                    <li>
+                        <a href="AnaSayfaDuzen"><i class="fa fa-edit"></i> Ana Sayfa Düzeni</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="container mt-4">
+                <h2>Slider Görsel Ekle</h2>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="AnaSayfaGorsel" class="form-label">Görsel Seç</label>
+                        <input type="file" class="form-control" id="AnaSayfaGorsel" name="AnaSayfaGorsel" required />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Ekle</button>
+                </form>
+            </div>
+
+            <div class="container mt-4">
+                <h2>Mevcut Görseller</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Görsel</th>
+                            <th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.AnaSayfaVerileri)
+                        {
+                            <tr>
+                                <td>@item.Id</td>
+                                <td><img src="data:image/jpeg;base64,@item.GorselBase64" width="100" height="100" /></td>
+                                <td>
+                                    <form method="post">
+                                        <input type="hidden" name="id" value="@item.Id" />
+                                        <button type="submit" asp-page-handler="Delete" class="btn btn-danger">Sil</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="~/assets/js/jquery-1.10.2.js" asp-append-version="true"></script>
+    <script src="~/assets/js/bootstrap.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/custom.js" asp-append-version="true"></script>
+</body>
+</html>
